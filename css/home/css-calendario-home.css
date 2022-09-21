@@ -1,0 +1,50 @@
+#coluna-calendario-home {
+    background-color: rgb(235,235,235);
+}
+
+#conteudo-coluna-calendario-home {
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#barra-calendario {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 0.5rem;
+    background-color: rgb(208,33,62);
+    color: rgb(255,255,255);
+}
+
+#botao-acesso-rapido1 {
+    width: 400px;
+    height: 70px;
+    background-color: rgb(235,235,235);
+    color: rgb(20,20,20);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 54.5px;
+}
+
+#botao-acesso-rapido2 {
+    width: 400px;
+    height: 70px;
+    background-color: rgb(235,235,235);
+    color: rgb(20,20,20);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 54.5px;
+}
+
+#botao-acesso-rapido3 {
+    width: 400px;
+    height: 70px;
+    background-color: rgb(235,235,235);
+    color: rgb(20,20,20);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
