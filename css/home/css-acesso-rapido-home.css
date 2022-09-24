@@ -4,8 +4,19 @@
 }
 
 #coluna-acesso-rapido {
-    width: 33,2%;
+    flex: 50%;
+    padding: 0 3.5px;
     float: left;
+}
+
+#coluna-acesso-rapido img {
+    width: 20rem;
+}
+
+#coluna-acesso-rapido:after {
+    content: "";
+    display: flex;
+    clear: both;
 }
 
 .corpo2:after {
@@ -15,33 +26,13 @@
 }
 
 #botao-acesso-rapido1 {
-    width: 400px;
-    height: 70px;
-    background-color: rgb(235,235,235);
-    color: rgb(20,20,20);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    margin-right: 54.5px;
+    width: 25%;
 }
 
 #botao-acesso-rapido2 {
-    width: 400px;
-    height: 70px;
-    background-color: rgb(235,235,235);
-    color: rgb(20,20,20);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    margin-right: 54.5px;
+    width: 25%;
 }
 
 #botao-acesso-rapido3 {
-    width: 400px;
-    height: 70px;
-    background-color: rgb(235,235,235);
-    color: rgb(20,20,20);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
+    width: 25%;
 }
