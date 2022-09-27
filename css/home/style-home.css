@@ -153,24 +153,54 @@ footer h4 {
     color: rgb(30, 30, 30);
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: normal;
+    font-variant: normal;
     font-style: normal;
 }
 
 footer h6 {
     color: rgb(255,255,255);
-    font-family: roboto_condensedbold, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     font-size: 14px;
 }
 
 @font-face {
-    font-family: 'roboto_condensedbold';
+    font-family: 'Roboto Condensed';
     src: url('robotocondensed-bold-webfont.woff2') format('woff2'),
          url('robotocondensed-bold-webfont.woff') format('woff'),
          url('robotocondensed-bold.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'Poppins';
+    src: url('poppins-bold.woff') format('woff');
+    src: url('poppins-bold.woff2') format('woff2');
+    src: url('poppins-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-variant: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('poppins-regular.woff') format('woff');
+    src: url('poppins-regular.woff2') format('woff2');
+    src: url('poppins-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-variant: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('sourcesanspro-regular.woff') format('woff');
+    src: url('sourcesanspro-regular.woff2') format('woff2');
+    src: url('sourcesanspro-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-variant: normal;
+    font-style: normal;
 }
 
 #corpo1:after {
@@ -183,4 +213,3 @@ footer h6 {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
-
