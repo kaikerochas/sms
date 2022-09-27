@@ -3,8 +3,78 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
     padding:0;
 }
 
-body {
-    background-color: rgb(225,225,225);
+footer {
+    background-color: rgb(235,235,235);
+}
+
+#menu-cabecalho {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    pointer-events: visible;
+    background-color: rgb(23,42,108);
+}
+
+#menu-cabecalho ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+#menu-cabecalho li {
+    float: left;
+}
+  
+#menu-cabecalho li a {
+    transition-duration: 0.3s;
+    display:block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+#menu-cabecalho li a:hover {
+    background-color: rgb(15, 27, 71);
+}
+
+li a:hover, .subnav:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.subnav {
+    display:inline-block;
+  }
+  
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #0c3ba1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.submenu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+    display:block;
+}
+  
+.submenu a:hover {
+    background-color: #f1f1f1;
+}
+  
+.subnav:hover .submenu {
+    display: grid;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
 }
 
 #cabecalho-home {
@@ -12,37 +82,134 @@ body {
     pointer-events: none;
 }
 
-#cabecalho-home h1 {
-    color: rgb(255,255,255);
-    margin-left: 20px;
-}
-
-#menu-cabecalho {
-    background-color: rgb(23,42,108);
-}
-
-#menu-cabecalho p {
-    color: rgb(255,255,255);
-    margin-left: 20px;
-}
-
 main {
     margin: 20px;
 }
 
-footer {
+#rodape {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#coluna1-rodape {
+    width: 10%;
+    float: left;
+}
+
+#coluna-rodape {
+    width: 25%;
+    float: left;
+}
+
+#rodape:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#rodape-creditos {
     background-color: rgb(23,42,108);
+}
+
+footer h3 {
+    color: rgb(23,42,108);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    pointer-events: visible;
+}
+
+#rodape a:link {
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+}
+  
+#rodape a:visited {
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+}
+  
+#rodape a:hover {
+    color: rgb(30, 30, 30);
+    text-decoration: underline;
+}
+  
+#rodape a:active {
+    color: rgb(30, 30, 30);
+    text-decoration: underline;
+}
+
+.line-1 {
+    height: 3px;
+    background: rgb(23,42,108);
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+footer h4 {
+    color: rgb(30, 30, 30);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    font-variant: normal;
+    font-style: normal;
 }
 
 footer h6 {
     color: rgb(255,255,255);
-    font-family: Roboto Condensed Regular;
+    font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     font-size: 14px;
-
 }
 
 @font-face {
-    font-family: Roboto Condensed Regular;
-    src: url('RobotoCondensed-Regular.ttf') format('truetype');
+    font-family: 'Roboto Condensed';
+    src: url('robotocondensed-bold-webfont.woff2') format('woff2'),
+         url('robotocondensed-bold-webfont.woff') format('woff'),
+         url('robotocondensed-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('poppins-bold.woff') format('woff');
+    src: url('poppins-bold.woff2') format('woff2');
+    src: url('poppins-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-variant: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('poppins-regular.woff') format('woff');
+    src: url('poppins-regular.woff2') format('woff2');
+    src: url('poppins-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-variant: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('sourcesanspro-regular.woff') format('woff');
+    src: url('sourcesanspro-regular.woff2') format('woff2');
+    src: url('sourcesanspro-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-variant: normal;
+    font-style: normal;
+}
+
+#corpo1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
