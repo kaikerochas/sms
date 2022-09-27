@@ -1,5 +1,5 @@
 #cabecalho {
-    background-image: src('files/media/img/ouvidoria/banner.jpg');
+    background-image: url('files/media/img/ouvidoria/banner.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: 0px, 800px;
