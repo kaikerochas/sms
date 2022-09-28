@@ -15,6 +15,7 @@ footer {
 }
 
 #menu-cabecalho ul {
+    font-family: 'Source Sans Pro', sans-serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,10 +23,12 @@ footer {
 }
   
 #menu-cabecalho li {
+    font-family: 'Source Sans Pro', sans-serif;
     float: left;
 }
   
 #menu-cabecalho li a {
+    
     transition-duration: 0.3s;
     display:block;
     color: white;
