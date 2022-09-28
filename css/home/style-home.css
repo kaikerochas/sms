@@ -8,8 +8,8 @@ footer {
 }
 
 #menu-cabecalho {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
     font-size: 15px;
     pointer-events: visible;
     background-color: rgb(23,42,108);
@@ -116,8 +116,8 @@ main {
 
 footer h3 {
     color: rgb(23,42,108);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
     font-size: 20px;
     pointer-events: visible;
 }
@@ -198,6 +198,26 @@ footer h6 {
     src: url('sourcesanspro-regular.woff') format('woff');
     src: url('sourcesanspro-regular.woff2') format('woff2');
     src: url('sourcesanspro-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-variant: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Black.woff') format('woff');
+    src: url('Lato-Black.woff2') format('woff2');
+    src: url('Lato-Black.ttf') format('truetype');
+    font-weight: bolder;
+    font-variant: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Regular.woff') format('woff');
+    src: url('Lato-Regular.woff2') format('woff2');
+    src: url('Lato-Regular.ttf') format('truetype');
     font-weight: normal;
     font-variant: normal;
     font-style: normal;
