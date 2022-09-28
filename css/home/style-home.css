@@ -8,8 +8,7 @@ footer {
 }
 
 #menu-cabecalho {
-    font-family: 'Lato', sans-serif;
-    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     pointer-events: visible;
     background-color: rgb(23,42,108);
@@ -117,7 +116,6 @@ main {
 footer h3 {
     color: rgb(23,42,108);
     font-family: 'Lato', sans-serif;
-    font-weight: bolder;
     font-size: 20px;
     pointer-events: visible;
 }
@@ -208,17 +206,6 @@ footer h6 {
     src: url('Lato-Black.woff') format('woff');
     src: url('Lato-Black.woff2') format('woff2');
     src: url('Lato-Black.ttf') format('truetype');
-    font-weight: bolder;
-    font-variant: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Lato';
-    src: url('Lato-Regular.woff') format('woff');
-    src: url('Lato-Regular.woff2') format('woff2');
-    src: url('Lato-Regular.ttf') format('truetype');
-    font-weight: normal;
     font-variant: normal;
     font-style: normal;
 }
