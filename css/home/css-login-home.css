@@ -47,8 +47,6 @@
 
 #conteudo-coluna-login-home button {
     transition-duration: 0.3s;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
     font-size: 16px;
     color: rgb(255,255,255);
     background-color: rgb(208,33,62);
