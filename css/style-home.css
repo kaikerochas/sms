@@ -116,7 +116,6 @@ main {
 footer h3 {
     color: rgb(23,42,108);
     font-family: 'Lato', sans-serif;
-    font-weight: bolder;
     font-size: 20px;
     pointer-events: visible;
 }
