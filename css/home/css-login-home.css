@@ -47,6 +47,7 @@
 
 #conteudo-coluna-login-home button {
     transition-duration: 0.3s;
+    font-family: Lato, sans-serif;
     font-size: 16px;
     color: rgb(255,255,255);
     background-color: rgb(208,33,62);
