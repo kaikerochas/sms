@@ -209,6 +209,7 @@ footer h6 {
     src: url('Lato-Black.woff') format('woff');
     src: url('Lato-Black.woff2') format('woff2');
     src: url('Lato-Black.ttf') format('truetype');
+    font-height: 900;
     font-variant: normal;
     font-style: normal;
 }
