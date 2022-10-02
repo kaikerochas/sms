@@ -15,6 +15,7 @@ footer {
 }
 
 #menu-cabecalho ul {
+    font-family: 'Source Sans Pro', sans-serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,10 +23,12 @@ footer {
 }
   
 #menu-cabecalho li {
+    font-family: 'Source Sans Pro', sans-serif;
     float: left;
 }
   
 #menu-cabecalho li a {
+    
     transition-duration: 0.3s;
     display:block;
     color: white;
@@ -72,8 +75,8 @@ li a:hover, .subnav:hover .dropbtn {
 }
 
 p {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 16px;
 }
 
 #cabecalho-home {
@@ -113,7 +116,15 @@ main {
     background-color: rgb(23,42,108);
 }
 
-footer h3 {
+h2 {
+    color: rgb(27,27,27);
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    pointer-events: visible;
+}
+
+h3 {
     color: rgb(23,42,108);
     font-family: 'Lato', sans-serif;
     font-size: 20px;
@@ -147,7 +158,7 @@ footer h3 {
     margin-bottom: 10px;
 }
 
-footer h4 {
+h4 {
     color: rgb(30, 30, 30);
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: normal;
@@ -206,6 +217,7 @@ footer h6 {
     src: url('Lato-Black.woff') format('woff');
     src: url('Lato-Black.woff2') format('woff2');
     src: url('Lato-Black.ttf') format('truetype');
+    font-weight: 900;
     font-variant: normal;
     font-style: normal;
 }
