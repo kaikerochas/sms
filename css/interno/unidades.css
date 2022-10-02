@@ -1,0 +1,35 @@
+#cabecalho {
+    background-image: url('files/media/img/ouvidoria/banner.jpg');
+    background-color: midnightblue;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0px, 800px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin: 0;
+    text-align: center;
+    background-size: 100%;
+    pointer-events: none;
+}
+
+#cabecalho h1 {
+    color: rgb(255,255,255);
+    font-size: 60px;
+    font-family: Lato, sans-serif;
+    text-shadow: 2px 2px 5px rgb(27,27,27);
+}
+
+#mapa {
+    padding-bottom: 20px;
+}
+
+main hr {
+    height: 2px;
+    background: rgb(27, 27, 27);
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+main img {
+    pointer-events: none;
+}
