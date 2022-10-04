@@ -1,9 +1,8 @@
 #cabecalho {
-    background-image: url('files/media/img/ouvidoria/banner.jpg');
-    background-color: midnightblue;
+    background-image: url(https://kaikerochas.github.io/sms/files/media/img/unidades/banner.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: 0px, 800px;
+    background-position: 0px;
     padding-top: 4rem;
     padding-bottom: 4rem;
     margin: 0;
