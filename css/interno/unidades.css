@@ -18,6 +18,14 @@
     text-shadow: 2px 2px 5px rgb(27,27,27);
 }
 
+h2 {
+    color: rgb(27,27,27);
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    pointer-events: visible;
+}
+
 #mapa {
     padding-bottom: 20px;
 }
