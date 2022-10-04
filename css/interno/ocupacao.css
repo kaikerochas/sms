@@ -1,0 +1,60 @@
+#cabecalho {
+    background-image: url(https://kaikerochas.github.io/sms/files/media/img/ocupacao/banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0px, 800px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin: 0;
+    text-align: center;
+    background-size: 100%;
+    pointer-events: none;
+}
+
+#cabecalho h1 {
+    color: rgb(255,255,255);
+    font-size: 60px;
+    font-family: Lato, sans-serif;
+    text-shadow: 2px 2px 5px rgb(27,27,27);
+}
+
+main hr {
+    height: 2px;
+    background: rgb(27, 27, 27);
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+main h2 {
+    color: rgb(27,27,27);
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    pointer-events: visible;
+}
+
+main h1 {
+    font-family: Lato, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+#livres {
+    color: rgb(50,160,65);
+}
+
+#ocupados {
+    color: rgb(200,25,30);
+}
+
+#indisponiveis {
+    color: rgb(27,27,27);
+}
+
+#taxa {
+    color: rgb(9, 75, 175);
+}
+
+main p {
+    text-align: center;
+}
