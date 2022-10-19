@@ -18,10 +18,56 @@
     text-shadow: 2px 2px 5px rgb(27,27,27);
 }
 
-h2 {
+main hr {
+    height: 2px;
+    background: rgb(27, 27, 27);
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+main h2 {
     color: rgb(27,27,27);
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     font-size: 20px;
     pointer-events: visible;
+}
+
+#form-acompanhar-chamada {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+#formulario-ouvidoria {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+main label {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.botao {
+    transition-duration: 0.3s;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: rgb(255,255,255);
+    background-color: rgb(208,33,62);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 10rem;
+    height: 25px;
+}
+
+.botao:hover {
+    transition-duration: 0.3s;
+    background-color: rgb(145, 20, 40);
+}
+
+input {
+    height: 1.4rem;
+    font-family: Lato, sans-serif;
+    border-radius: 5px;
+    background-color: rgb(240,240,240);
 }
