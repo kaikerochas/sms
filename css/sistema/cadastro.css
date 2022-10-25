@@ -1,0 +1,10 @@
+body {
+    background-color: aquamarine;
+}
+
+#formulario-cadastro {
+    background-color: rgb(255,255,255);
+    width: 50%;
+    height: 70%;
+    text-align: center;
+}
