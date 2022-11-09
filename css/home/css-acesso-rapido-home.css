@@ -19,11 +19,6 @@
     clear: both;
 }
 
-.corpo2:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 #botao-acesso-rapido1 {
     width: 25%;
@@ -33,6 +28,6 @@
     width: 25%;
 }
 
-#botao-acesso-rapido3 {
-    width: 25%;
+#link1, #link2 {
+    margin-bottom: 0.5rem;
 }
