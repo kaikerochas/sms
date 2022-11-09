@@ -116,14 +116,6 @@ main {
     background-color: rgb(23,42,108);
 }
 
-h2 {
-    color: rgb(27,27,27);
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
-    font-size: 20px;
-    pointer-events: visible;
-}
-
 h3 {
     color: rgb(23,42,108);
     font-family: 'Lato', sans-serif;
@@ -217,7 +209,7 @@ footer h6 {
     src: url('Lato-Black.woff') format('woff');
     src: url('Lato-Black.woff2') format('woff2');
     src: url('Lato-Black.ttf') format('truetype');
-    font-weight: 900;
+    font-height: 900;
     font-variant: normal;
     font-style: normal;
 }
